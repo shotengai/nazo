@@ -5,23 +5,26 @@
     <meta charset='utf-8' />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-
     <title>田丸稲荷神社に貧乏神がやってきた！</title>
-    <script src='https://cdn.jsdelivr.net/npm/phina.js@0.2.2/build/phina.js'></script>
-    <!-- メイン処理 -->
-    <script src='main.js'></script>
     <style>
-      body {
-        background-color: darkgray;
-      }
-      canvas {
-        width:100%;
-      }
-    </style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    section.contents {
+      height: 100vh;
+      width:auto;
+      background-size: auto 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .img{
+      background-image: url(img/image.jpeg);
+      /*background-color:#d68d2f;*/
+    }
+  </style>
   </head>
   <body>
-<!--     <p>
-      <img src="./img/background.png">
-    </p>
- -->  </body>
+    <section class="contents img"></section>
+  </body>
 </html>
